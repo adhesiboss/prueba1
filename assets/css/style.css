@@ -1,0 +1,119 @@
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Oswald", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a.navbar-brand {
+  width: 137px;
+  height: 46px;
+  font-size: 37px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: black !important;
+}
+.fondo {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 400px;
+}
+.about {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 180px;
+}
+.perfil {
+  width: 136px;
+  height: 200px;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+  padding-bottom: 0px;
+  letter-spacing: -2px;
+  text-align: center;
+  width: 100%;
+}
+hr {
+  border: 1px solid #000000;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px;
+  margin-top: 0px;
+  letter-spacing: 15px;
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+.experiencia {
+  margin-top: 500px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  z-index: 0;
+  background-color: white;
+}
+h2.titulo {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0px !important;
+  margin-right: 0px !important;
+}
+.trabajos {
+  margin-top: 1500px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  background-color: black;
+}
+h2.oscuro {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-right: 0px !important;
+  color: white !important;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.formulario{
+  margin-top: 3950px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+}
+footer{
+  margin-top: 4700px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  color: white;
+}
