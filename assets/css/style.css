@@ -15,14 +15,14 @@ a.navbar-brand {
   padding: 0;
   margin: 0;
 }
-a.nav-link{
+a.nav-link {
   text-align: right;
-  color: whitesmoke!important;
+  color: whitesmoke !important;
   width: 230px;
 }
-a.nav-link:hover{
+a.nav-link:hover {
   text-decoration: line-through;
-  color: red!important;
+  color: red !important;
 }
 .navbar {
   background-color: black !important;
@@ -91,14 +91,14 @@ h2.titulo {
   text-align: center;
   margin: 0px !important;
   margin-right: 0px !important;
-  margin-top: 65px!important;
-  margin-bottom: 30px!important;
+  margin-top: 65px !important;
+  margin-bottom: 30px !important;
 }
-span{
+span {
   color: red;
 }
-div.pega2{
-  margin-top: 30px!important;
+div.pega2 {
+  margin-top: 30px !important;
 }
 .trabajos {
   margin-top: 1100px;
@@ -119,22 +119,22 @@ h2.oscuro {
   padding-top: 65px;
   margin-bottom: 30px;
 }
-.card{
+.card {
   margin: 0 auto 40px auto;
 }
-a.btn.btn-primary{
+a.btn.btn-primary {
   background-color: black;
   border-color: black;
 }
-.formulario{
+.formulario {
   margin-top: 4050px;
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   position: absolute;
   z-index: 0;
   padding-bottom: 30px;
 }
-h2.contacto{
+h2.contacto {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 35px;
@@ -146,10 +146,10 @@ h2.contacto{
   color: black;
 }
 
-a.typeform-share button{
-  justify-content: center!important;
+a.typeform-share.button {
+  justify-content: center !important;
 }
-footer{
+footer {
   margin-top: 4400px;
   width: 100%;
   height: auto;
@@ -161,12 +161,168 @@ footer{
   color: white;
   padding-top: 20px;
 }
-.fa-github:before{
+.fa-github:before {
   color: white;
 }
-.fa-linkedin-in:before{
+.fa-linkedin-in:before {
   color: white;
 }
-.fa-behance:before{
+.fa-behance:before {
   color: white;
+}
+@media (min-width: 1280px) {
+  .fondo {
+    position: relative;
+    z-index: 0;
+    top: -250px;
+  }
+  .about {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 340px;
+    /* background-color: white; */
+  }
+  div.col-text-center {
+    background-color: white;
+  }
+  .perfil {
+    width: 230px;
+    height: 337px;
+    border-radius: 4.5%;
+  }
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    font-size: 72px;
+    padding-bottom: 0px;
+    letter-spacing: -2px;
+    text-align: center;
+    width: 100%;
+  }
+  hr {
+    width: 533px;
+    display: inline-block;
+  }
+  hr.segunda {
+    height: 5px;
+    width: 20%;
+    display: inline-block;
+  }
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 72px;
+    padding: 0px;
+    margin-top: 0px;
+    letter-spacing: 15px;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  .experiencia {
+    margin-top: 700px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+  }
+  h2.titulo {
+    font-size: 52px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 85px !important;
+  }
+  .expe {
+    display: inline-block;
+    margin: 80px;
+  }
+  div.col {
+    text-align: center;
+  }
+  img.logo {
+    width: 180px;
+    height: 51px;
+  }
+  .trabajos {
+    margin-top: 1200px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    padding-bottom: 100px !important;
+  }
+  h2.oscuro {
+    font-family: "Lobster", cursive;
+    font-weight: normal;
+    font-size: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 30px !important;
+  }
+  .card {
+    margin: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: flex-start; */
+  }
+  div.card {
+    align-self: stretch !important;
+  }
+  .formulario {
+    margin-top: 2550px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    padding-bottom: 30px;
+  }
+  h2.contacto {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    padding-top: 55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    letter-spacing: 7px;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  p.formu {
+    font-size: 20px !important;
+    width: 800px;
+    margin: 0 auto 40px auto;
+  }
+  a.typeform-share.button {
+    display: none !important;
+  }
+  div.col.text-center {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  footer {
+    margin-top: 3500px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    padding-top: 20px;
+  }
+  footer p {
+    font-size: 30px !important;
+    text-align: right;
+    padding-right: 100px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    color: white;
+  }
 }
