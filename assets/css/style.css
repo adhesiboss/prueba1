@@ -120,7 +120,7 @@ h2.oscuro {
   margin-bottom: 30px;
 }
 .card{
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
 }
 a.btn.btn-primary{
   background-color: black;
